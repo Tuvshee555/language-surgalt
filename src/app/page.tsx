@@ -194,7 +194,31 @@ export default function Home() {
           >
             <p>📍 Blue Sky Tower, Улаанбаатар, Монгол</p>
             <p>📞 +976 9900-1234</p>
-            <p>✉ info@fluentone.mn</p>
+            <p>✉ ganturtuvshinsaikhan@gmail.com</p>
+            <div className="flex justify-center lg:justify-start space-x-4 mt-2">
+              <a
+                href="https://www.instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="instagram.jpg"
+                  alt="Instagram"
+                  className="w-6 h-6 hover:opacity-80"
+                />
+              </a>
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="facebook.jpg"
+                  alt="Facebook"
+                  className="w-6 h-6 hover:opacity-80"
+                />
+              </a>
+            </div>
           </motion.div>
           <motion.div
             className="rounded-2xl overflow-hidden shadow-2xl w-full max-w-md h-64"
